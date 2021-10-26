@@ -1,0 +1,206 @@
+/* Reset CSS */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* BASE */
+.wrapper{
+    width: 1400px;
+    height: 933px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+}
+
+.container{
+   width: 78%;
+   margin: 0 auto; 
+}
+
+.card{
+    display: inline-block;
+    width: 350px;
+    height: 225px;
+}
+/* Header */
+.header{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.title{
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+ .line{
+     width: 64px;
+     height: 2px;
+     margin: 0 auto 30px;
+     background: #E72424;
+     border: none;
+}
+ .subtitle{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #86878B;
+}
+ .main{
+     height: 345px;
+     padding-bottom: 202;
+}
+ /* CARD*/
+ .card-lamp{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 30px;
+    background: url('Assets/lamp.png') no-repeat center;
+    object-fit: contain;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+.card-text{
+    font-size: 14px;
+}
+.card-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.card-flash{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 30px;
+    background: url('Assets/flash.png')no-repeat center;
+    object-fit: contain;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+.card-keyboard{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 30px;
+    background: url('Assets/keyboard.png') no-repeat center;
+    object-fit: contain;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+.section{
+    width: 1400px;
+    height: 325px;
+}
+/* DESIGN SECTION */
+.design{
+    height: 325px;
+    background: url('Assets/town.png') center;
+    filter: brightness(65%);
+}
+.design-title{
+    margin: 0 auto 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+ }
+.design-line{
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background-color: #FFFFFF;
+    border: none;
+}
+.design-subtitle{
+    margin: 0 auto;
+    margin: 0 auto 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF ;
+}
+/* FOOTER */
+.button{
+   display: block;
+   width: 80%;
+   max-width: 200px;
+   margin: 0 auto;
+   padding: 8px;
+   font-family: inherit; 
+   text-align: center;
+   text-decoration: none;
+   background: #fff; 
+   background: rgba(255, 255, 255, 0.041);
+   color: #fff;
+   border: none;
+   border: 1px solid #FFFFFF;
+   box-sizing: border-box;
+   letter-spacing: 1px;
+   transition: all 0.3s ease-out;
+   cursor: pointer;
+}
+.button-title{
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.footer{
+    
+    width: 1400px;
+    height: 101px;
+   background-color: #000000;
+}
+
+
+.footer-title{
+    margin: 0 auto 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}   
+.networks {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 23px;
+    width: 317px;
+    margin: auto;
+    text-align: center;
+}
+
+.links {
+    height: 23px;
+    width: 30px;
+    margin-right: 10px;
+    background: url(Assets/society.png) no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.facebook {
+    background-position: 9px;
+}
+
+.twitter {
+    background-position: -40px;
+}
+
+.google {
+    background-position: -90px;
+}
+
+.pinterest {
+    background-position: -138px;
+}
+
+.instagram {
+    background-position: -188px;
+}
+
+.stumble-upon {
+    background-position: -242px;
+}
+
+.wifi {
+    background-position: -293px;
+}
